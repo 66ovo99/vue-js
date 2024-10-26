@@ -2,117 +2,117 @@ vue.js presentation
 
 Vue.js is a framework built with JavaScript, focused on **building user interfaces**. It simplifies complex front-end development tasks like data binding, component-based development, and state management, and provides pre-packaged features and tools. This allows developers to build dynamic, interactive applications more quickly and efficiently without having to write extensive native JavaScript code.
 
-![1](pictures\1.png)
+![1](pictures/1.png)
 
-The cover slide of the presentation, showing the team members and the selected topic.![2](pictures\2.png)
+The cover slide of the presentation, showing the team members and the selected topic.![2](pictures/2.png)
 
-Here, we’ve included an agenda to give the audience an overview of the presentation flow.![3](pictures\3.png)
+Here, we’ve included an agenda to give the audience an overview of the presentation flow.![3](pictures/3.png)
 
 Next is the first section: Introduction.
 
-![4](pictures\4.png)
+![4](pictures/4.png)
 
 Vue.js is actually a progressive JavaScript framework primarily used for building front-end user interfaces.
 
 Its features are also quite distinct: simplicity, high efficiency, support for component-based development, two-way data binding, and other integrated functions.
 
-![5](pictures\5.png)
+![5](pictures/5.png)
 
 Next, we’ll provide a simple demonstration to help unfamiliar viewers understand how to use this framework.
 
-First, install the Vue CLI. Open the target folder in VS Code, create a new terminal, and enter the following command:![6](pictures\6.png)
+First, install the Vue CLI. Open the target folder in VS Code, create a new terminal, and enter the following command:![6](pictures/6.png)
 
 `npm install -g @vue/cli`
 
 This will globally install the Vue CLI.
 
-![7](pictures\7.png)
+![7](pictures/7.png)
 
 Next, use the following command to create your own Vue.js project: `vue create my-vue-app`(replace *`my-vue-app`* with your preferred project name). Then, a prompt will appear, allowing you to choose the version of Vue you need. The latest version is Vue 3. If you’ve used an older version for previous projects and want to continue editing them, make sure to select the corresponding version for download. By default, the latest version is selected. If you’re a professional developer, you can select the last option to customize the version and layout settings.
 
-![8](pictures\8.png)
+![8](pictures/8.png)
 
 After installation, you’ll see that the system has prompted you on how to run the project.
 
-![9](pictures\9.png)
+![9](pictures/9.png)
 
 First, enter  `cd my-vue-project` (replace *`my-vue-app`* with the directory of your created project), and then enter npm run serve to officially run the project.
 
 If you want to use related plugins, you can check and install them on GitHub; however, they’re unnecessary for simple examples.
 
-![10](pictures\10.png)
+![10](pictures/10.png)
 
 Next is a detailed analysis of each part of the Vue.js framework.![11](C:\Users\27406\Desktop\vue.js\pictures\11.png)
 
 This section mainly includes configuration files for the project, which beginners do not need to modify at all.
 
-![12](pictures\12.png)
+![12](pictures/12.png)
 
 The *index.html* page is quite important, as Vue.js renders the entire application at this mounting point, defining the basic structure of the webpage.
 
-![13](pictures\13.png)
+![13](pictures/13.png)
 
 This concludes the detailed explanation of the Vue.js framework. If you'd like to learn more, you can find additional resources on GitHub.
 
-![14](pictures\14.png)
+![14](pictures/14.png)
 
 Next, we’ll present a simple example created by our team to demonstrate where each part of the code should be placed within this framework.
 
-![15](pictures\15.png)
+![15](pictures/15.png)
 
 The basic HTML part can be placed directly in *App.vue*. CSS and JavaScript can either be included within it or stored in separate files.
 
-![16](pictures\16.png)
+![16](pictures/16.png)
 
 After creating it, don’t forget to go to *main.js* to mount it; otherwise, the system will throw an error and won’t run.
 
-![17](pictures\17.png)
+![17](pictures/17.png)
 
 Next, we have a small project our team created with Vue.js—a calculator for basic arithmetic operations.
 
-![18](pictures\18.png)
+![18](pictures/18.png)
 
 I’ve organized the code into categories for easier management.
 
-![19](pictures\19.png)
+![19](pictures/19.png)
 
 This part is the main section of the JavaScript code.
 
-![20](pictures\20.png)
+![20](pictures/20.png)
 
 This is the CSS and rendering interface.
 
-![21](pictures\21.png)
+![21](pictures/21.png)
 
 Finally, the most crucial step is to return to the *main.js* file to mount your project, allowing it to run successfully.
 
-![22](pictures\22.png)
+![22](pictures/22.png)
 
-<video src="C:\Users\27406\Desktop\vue-js\pictures\10月20日.mp4"></video>
+<video src="pictures\10月20日.mp4"></video>
 
 
 
-![23](pictures\23.png)
+![23](pictures/23.png)
 
 Next is an analysis of the user groups and use cases.
 
-![24](pictures\24.png)
+![24](pictures/24.png)
 
 Firstly, I think Vue.js is very beginner-friendly, with a structure that’s not overly complex, making it easy to get started. As shown in the left image, the usage rate of Vue.js continues to rise.
 
 It’s also quite convenient for other user groups.
 
-![25](pictures\25.png)
+![25](pictures/25.png)
 
-In reality, many use cases require extensive structure, real-time data updates, and project integration, which are key reasons why users choose Vue.js.![26](pictures\26.png)
+In reality, many use cases require extensive structure, real-time data updates, and project integration, which are key reasons why users choose Vue.js.![26](pictures/26.png)
 
 Next, I will present the advantages and disadvantages of Vue.js. Like any technology, it has both strengths and weaknesses.
 
-![27](pictures\27.png)
+![27](pictures/27.png)
 
 The advantages are evident; however, the corresponding drawbacks are also clear. As the project becomes more complex, the required performance of the device running it increases, and it does not support simultaneous multi-user online editing, which is a significant limitation.
 
-![28](pictures\28.png)
+![28](pictures/28.png)
 
 That is the complete presentation.
 
@@ -124,7 +124,7 @@ In fact, when using the Vue.js framework, many editors are available, each with 
 
 To start writing Vue.js applications in VSCode, you’ll need to install Node.js, as Vue.js relies on this environment. You can download and install it from the official Node.js website (https://nodejs.org/en).
 
-![31](pictures\31.png)
+![31](pictures/31.png)
 
 After installation, open PowerShell or Command Prompt and enter the following command to check if Node.js has been installed correctly
 
@@ -138,15 +138,15 @@ Once everything is set, restart your computer to apply the changes. After restar
 
 <img src="pictures\42.jpg" alt="42" style="zoom:33%;" />
 
-![32](pictures\32.png)
+![32](pictures/32.png)
 
-![33](pictures\33.png)
+![33](pictures/33.png)
 
-![34](pictures\34.png)
+![34](pictures/34.png)
 
-![35](pictures\35.png)
+![35](pictures/35.png)
 
-![36](pictures\36.png)
+![36](pictures/36.png)
 
 
 
@@ -172,21 +172,21 @@ This command allows PowerShell to run local scripts while requiring signatures f
 
 This step defaults to Vue 3. If you have projects in older versions and want to continue with them, you can select the version accordingly. For this guide, we’ll proceed with the latest Vue 3.
 
-![37](pictures\37.png)
+![37](pictures/37.png)
 
-![38](pictures\38.png)
+![38](pictures/38.png)
 
-![39](pictures\39.png)
+![39](pictures/39.png)
 
 The system will then guide you on how to run the project by executing a series of commands in the terminal.
 
 Hold down **CTRL** and click the **Local** link provided in the terminal output to open and view the initial project page in your browser.
 
-![40](pictures\40.png)
+![40](pictures/40.png)
 
 This is the default project running page. Next, let’s look at how to set up and run our group project, "Calculator," and explore its project structure.
 
-![41](pictures\41.png)
+![41](pictures/41.png)
 
 The following is the content of `index.html`.
 
@@ -421,6 +421,6 @@ The style section has been put into styles.css*/
 
 ***The resulting output is shown in the video below.***
 
-<video src="E:\抖音\10月20日.mp4"></video>
+<video src="pictures\10月20日.mp4"></video>
 
 That's the complete tutorial on Vue.js. If you want to dive deeper into learning Vue.js, you can explore related resources on GitHub for further study.
